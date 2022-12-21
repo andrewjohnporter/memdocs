@@ -14,6 +14,8 @@ ms.localizationpriority: high
 
 # <a name="bkmk_device"></a> Endpoint analytics scores, baselines, and insights
 
+To view Endpoint Analytics go to endpoint.microsoft.com and log on to the Microsoft Endpoint Manager admin center portal then click on Reports and Endpoint Analytics.
+
 When you first open the **Overview** page in **Endpoint analytics**, you're presented with a few score charts. You'll also notice there's information about what affects the scores and how to improve them if needed. Understanding the following three items are central to understanding each of the reports:
 
 - Scores
