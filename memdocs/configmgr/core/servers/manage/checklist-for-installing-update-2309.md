@@ -124,7 +124,9 @@ Install a minimum version of SQL Server 2012 Native Client, which includes suppo
 
 ### Review SQL ODBC driver for CM
 
-Starting with version 2309, Configuration Manager requires the installation of the ODBC driver for SQL server as a prerequisite. This prerequisite is required when you create a new site or update an existing one.
+Starting with version 2309, Configuration Manager requires the installation of the ODBC driver for SQL server as a prerequisite. This prerequisite is required when you create a new site or update an existing one. This is applicable to multiple site system roles.
+
+IMPORTANT You must reboot after installing the UDBC Driver for SQL Server software
 
 ### Review the site and hierarchy status for unresolved issues
 
