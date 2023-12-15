@@ -31,7 +31,7 @@ To take full advantage of new Configuration Manager features, after you update t
 Starting with Configuration Manager 2309 release, Configuration Manager requires the installation of the ODBC driver for SQL server 18.1.0 or later as a prerequisite. This prerequisite is required when you create a new site or update an existing one and on all remote roles.
 
 > [!IMPORTANT]
-> Microsoft ODBC Driver for SQL Server 18.1.0 or later needs to be installed on Site Servers and site system roles before upgrading to 2309 version.
+> Microsoft ODBC Driver for SQL Server 18.1.0 or later needs to be installed on Site Servers and site system roles before upgrading to 2309 version. A reboot after installing the ODBC Driver is necessary!
 > Do not uninstall SQL native client 11 until we call out in further communications. Configuration Manager doesn't manage the updates for the ODBC driver, ensure that this component is up to date.
 
 For more information, see [SQL ODBC driver for the site server](../..//plan-design/configs/site-and-site-system-prerequisites.md#sql-odbc-driver-for-the-site-server)
